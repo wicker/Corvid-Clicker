@@ -131,6 +131,7 @@ var corvidView = {
 
     this.corvidNameElem.textContent = currentCorvid.name;
     this.corvidImgElem.src = currentCorvid.imgSrc;
+    this.corvidImgElem.alt = currentCorvid.name + ' photo by ' + currentCorvid.imgAttribution;
     this.corvidCountElem.textContent = currentCorvid.clicks;
   }
 }
