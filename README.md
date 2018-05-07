@@ -1,5 +1,7 @@
 # Corvid-Clicker
 
+Single page demonstrating separation of model and view. Closely follows from Udacity Javascript Design Patterns course example, except not with cats.
+
 ## Requirements
 
 **Version 1.1**
