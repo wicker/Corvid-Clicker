@@ -77,6 +77,17 @@ var corvidListView = {
     var corvid, elem, i;
 
     var corvids = controller.getCorvids();
+
+    this.corvidListElem.innerHTML = '';
+
+    for (i = 0; i < corvids.length; i++) {
+      corvid = corvids[i];
+
+      newCorvidNameElem = document.createElement('li');
+      newCorvidNameElem.textContent = corvid.name;
+
+      this.corvidListElem.appendChild(newCorvidNameElem);
+    }
     console.log(corvids);
   }
 }
