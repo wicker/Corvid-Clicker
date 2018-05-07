@@ -48,18 +48,37 @@ var model = {
     imgSrc: 'img/chough.png',
     imgAttribution: 'Ken Billington',
     linkWikipedia: 'https://en.wikipedia.org/wiki/Chough'
-  },
-  ]
+  }]
 }
 
 var controller = {
 
   init: function() {
-
+    // load the first corvid on the list
     model.currentCorvid = model.corvids[0];
-    console.log(model.currentCorvid);
-  }
 
+    // load both views
+    corvidListView.init();
+  },
+
+  getCorvids: function() {
+    return model.corvids;
+  }
+}
+
+var corvidListView = {
+
+  init: function() {
+    this.corvidListElem = document.getElementById('corvid-list');
+    this.render();
+  },
+
+  render: function() {
+    var corvid, elem, i;
+
+    var corvids = controller.getCorvids();
+    console.log(corvids);
+  }
 }
 
 controller.init();
