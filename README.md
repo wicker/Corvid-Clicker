@@ -31,10 +31,22 @@
 
 ## Site
 
-Current live version: `v1.0`
+Current live version: `v1.1`
 
 &raquo; [Click to visit](http://jennerhanni.net/corvid-clicker)
 
 ## License
 
 This project is licensed under the [GPL v3](LICENSE).
+
+## Screenshots
+
+**Version 1.1**
+
+![Version 1.1 screenshot](screenshot-v1.1.png)
+
+**Version 1.0**
+
+![Version 1.0 screenshot](screenshot-v1.0.png)
+
+
