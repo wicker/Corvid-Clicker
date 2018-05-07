@@ -6,7 +6,9 @@
 - The number of clicks should increment when the corvid picture is clicked.
 - Implementation should use HTML, CSS, and vanilla Javascript.
 
-## Screenshot
+## Site
+
+&raquo; [Click to visit](http://jennerhanni.net/corvid-clicker)
 
 ![Screenshot](screenshot.png)
 
