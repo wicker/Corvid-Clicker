@@ -19,20 +19,27 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 #corvid {
-  width: 40%;
+  min-width: 600px;
+  width: 70%;
 }
 
 #corvid-list {
+  padding: 0;
   text-align: center;
+  width: 30%;
 }
 
 #corvid-list li {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+  cursor: pointer;
 }
 
 img {
@@ -45,3 +52,60 @@ img {
   margin: 0 auto;
   line-height: 15vh;
 }
+
+@media screen and (max-width: 860px) {
+
+  h1 {
+    margin: 0;
+    padding: 20px 0 0 0;
+    line-height: 1.4em;
+  }
+
+  #corvid {
+    min-width: 300px;
+    width: 400px;
+  }
+
+  #corvid img {
+    width: 300px;
+    height: 200px;
+  }
+
+  #corvid-list {
+    width: 35%;
+  }
+
+}
+
+@media screen and (max-width: 620px) {
+
+  h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+  }
+
+  #corvid {
+    min-width: 300px;
+    width: 400px;
+  }
+
+  #corvid img {
+    margin: 10px auto;
+    width: 275px;
+    height: 200px;
+  }
+
+  #corvid-list {
+    width: 40%;
+    margin: 0 auto 40px;
+  }
+
+  #corvid-list li {
+    margin: 20px auto;
+    font-size: 0.7em;
+  }
+
+}
+
