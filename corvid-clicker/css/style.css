@@ -15,21 +15,23 @@ h1 {
 }
 
 #flex-container {
-  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 1000px;
   margin: 0 auto;
+  padding-bottom: 40px;
   flex-wrap: wrap;
 }
 
 #corvid {
+  flex: auto;
   min-width: 600px;
   width: 70%;
 }
 
 #corvid-list {
+  flex: auto;
   padding: 0;
   text-align: center;
   width: 30%;
@@ -51,6 +53,11 @@ img {
 #count {
   margin: 0 auto;
   line-height: 15vh;
+}
+
+footer {
+  padding: 20px;
+  content: '';
 }
 
 @media screen and (max-width: 860px) {
@@ -82,10 +89,6 @@ img {
 }
 
 @media screen and (max-width: 620px) {
-
-  body {
-    margin: 0 0 40px;
-  }
 
   h1 {
     margin: 0;
