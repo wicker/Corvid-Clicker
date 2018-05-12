@@ -56,7 +56,7 @@ img {
 @media screen and (max-width: 860px) {
 
   body {
-    padding: 0 0 40px;
+    margin: 0 0 40px;
   }
 
   h1 {
@@ -83,6 +83,10 @@ img {
 
 @media screen and (max-width: 620px) {
 
+  body {
+    margin: 0 0 40px;
+  }
+
   h1 {
     margin: 0;
     padding: 20px;
@@ -96,7 +100,7 @@ img {
   }
 
   #corvid img {
-    margin: 10px auto 50px;
+    margin: 10px auto;
     width: 275px;
     height: 200px;
   }
