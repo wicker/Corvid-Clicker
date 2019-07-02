@@ -35,7 +35,7 @@ Single page demonstrating separation of model and view. Closely follows from Uda
 
 Current live version: `v1.1`
 
-&raquo; [Click to visit](http://jennerhanni.net/corvid-clicker)
+&raquo; [Click to visit](http://wicker.github.io/corvid-clicker)
 
 ## License
 
